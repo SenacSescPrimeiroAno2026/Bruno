@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    background-color: blue;
+    color: red;
+    margin: 0%;
+    padding: 5%;
+}
+    
+.container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+body{
+    margin: 0%;
+
+}

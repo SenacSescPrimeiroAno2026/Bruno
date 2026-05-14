@@ -1,0 +1,85 @@
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #00ffd5;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu {
+    background-color: #030729; 
+    padding: 10px;
+}
+
+.menu ul {
+    margin: 5;
+    padding: 0;
+}
+
+.menu li {
+    display: inline; 
+    margin: 0 15px;
+    
+}
+
+.menu a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+
+.cartao-jogo {
+    background-color: #00bfff;
+    border: 2px solid black;
+    margin: 55px auto;
+    padding: 20px;
+    max-width:1000px;
+    border-radius: 60px;
+}
+
+img{
+     width: 580px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin:  auto;
+    
+}
+
+.inicio {
+    background-color: #00bfff;
+    border: 2px solid black;
+    margin: 55px auto;
+    padding: 20px;
+    max-width: 1000px;
+    border-radius: 60px;
+
+}
+
+li {
+    list-style-position: inside;
+    margin-bottom: 8px;
+}
+
+.botao-acesso {
+    display: inline-block;
+    background-color: #ff0000; 
+    color: white;             
+    padding: 10px 20px;          
+    border: 2px solid black;  
+    border-radius: 8px;       
+    margin-top: 10px;
+}
+
+
+.botao-acesso:hover {
+    background-color: #b30000; 
+    cursor:pointer;
+}
+
+nav h3{
+    color: white;
+}
