@@ -129,7 +129,7 @@ body {
     box-sizing: border-box; 
 }
 
-/* O CARD DE CADA TRABALHO */
+
 .card-trabalho {
     background-color: var(--cor-fundo-trabalho); 
     border-radius: 15px;
@@ -183,7 +183,7 @@ body {
     background-color: #003366; 
 }
 
-/* FOOTER (RODAPÉ) */
+
 footer {
     background-color: #024e91;
     border-top: 8px solid #03133f;
