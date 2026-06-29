@@ -143,6 +143,16 @@ body {
     box-sizing: border-box;
     transition: background-color 0.3s, border-color 0.3s;
 }
+
+.card-trabalho:hover {
+    transform: scale(1.05); 
+    border-color: rgb(0, 110, 255);
+}
+
+.card-trabalho {
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s ease; 
+}
+
 .card-trabalho h3 {
     color: #61b0ff; 
     font-size: 1.1rem; 
