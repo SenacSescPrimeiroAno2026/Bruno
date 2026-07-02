@@ -54,7 +54,8 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    gap: 10px; 
 }
 
 .menu li {
@@ -120,32 +121,37 @@ body {
 
 .grade-trabalhos {
     display: grid;
-    
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
     gap: 20px; 
-    max-width: 1000px;
-    margin: 20px auto 40px auto;
-    padding: 0 15px;
-    box-sizing: border-box; 
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    box-sizing: border-box;
 }
 
 
 .card-trabalho {
-    background-color: var(--cor-fundo-trabalho); 
-    border-radius: 15px;
+    background-color: var(--cor-fundo-trabalho);
+    border-top: 8px solid var(--cor-borda-trabalho);
+    border-radius: 15px; 
     padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
-    border-top: 8px solid var(--cor-borda-trabalho); 
-    transition: background-color 0.3s, border-color 0.3s;
     box-sizing: border-box;
-    width: 100%; 
+    transition: background-color 0.3s, border-color 0.3s;
 }
 
+.card-trabalho:hover {
+    transform: scale(1.05); 
+    border-color: rgb(0, 110, 255);
+}
+
+.card-trabalho {
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s ease; 
+}
 
 .card-trabalho h3 {
     color: #61b0ff; 
